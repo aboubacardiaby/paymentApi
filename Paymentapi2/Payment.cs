@@ -1,4 +1,4 @@
-﻿namespace PaymentApi
+﻿namespace Paymentapi2
 {
     public class Payment
     {

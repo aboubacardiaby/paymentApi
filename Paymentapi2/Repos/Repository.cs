@@ -1,12 +1,14 @@
 ﻿
 
+using Paymentapi2;
+
 namespace PaymentApi.Repos
 {
-    public class Repository:IRepository
+    public class Repository : IRepository
     {
         List<Payment> _paymentList;
 
-        public  async Task<List<Payment>> GetAll()
+        public async Task<List<Payment>> GetAll()
         {
             _paymentList = new List<Payment>();
 
